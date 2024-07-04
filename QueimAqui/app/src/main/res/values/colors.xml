@@ -1,0 +1,18 @@
+<resources>
+    <color name="purple_200">#D2D2D2</color>
+    <color name="purple_500">#D2D2D2</color>
+    <color name="purple_700">#D2D2D2</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="orange">#A0522D</color>
+    <color name="light_orange">#BA6B45</color>
+    <color name="BackGround">#FF7337</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="gray">#333333</color>
+    <color name="light_gray">#D2D2D2</color>
+    <color name="LoginBTN">#FF540B</color>
+    <color name="RegisterBTN">#DADADA</color>
+</resources>

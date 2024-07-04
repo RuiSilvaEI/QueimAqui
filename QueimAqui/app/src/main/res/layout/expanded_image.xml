@@ -1,0 +1,22 @@
+<!-- res/layout/dialog_expanded_image.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround">
+
+    <ImageView
+        android:id="@+id/imageViewExpanded"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"/>
+
+    <ImageButton
+        android:id="@+id/buttonClose"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"/>
+</RelativeLayout>

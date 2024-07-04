@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/BackGround"
+    tools:context=".fragments.fragment_new_burn">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageButton
+            android:id="@+id/buttonBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:layout_gravity="start"
+            android:padding="1dp"
+            android:scaleType="centerInside"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/register_pile_burn"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/typeBurn"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"/>
+
+        <Spinner
+            android:id="@+id/spinnerType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reasonBurn"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/editTextReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enterReasonHere"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:background="@color/white"
+            android:padding="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dateBurn"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"/>
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ddmmyy"
+            android:focusable="false"
+            android:clickable="true"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:background="@android:color/white"
+            android:padding="15dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/locationBurn"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/buttonOpenMap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/open_map"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/LoginBTN"
+            android:layout_marginTop="16dp"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/otherDataBurn"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/locationInfoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="16dp"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/selectedLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selected location will appear here"
+            android:paddingTop="8dp"
+            android:textColor="@color/white"
+            android:visibility="gone"/>
+
+
+
+        <EditText
+            android:id="@+id/editTextOtherData"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/enterAdditionalInformationHere"
+            android:textColor="@color/black"
+            android:textColorHint="@android:color/black"
+            android:background="@android:color/white"/>
+
+        <Button
+            android:id="@+id/buttonConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonConfirm"
+            android:background="@color/LoginBTN"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

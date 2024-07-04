@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">QueimAqui</string>
+    <string name="login_btn">Log In</string>
+    <string name="register_btn">Register</string>
+    <string name="language">Language</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Português</item>
+    </string-array>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="error_email_in_use">This e-mail is already in use.</string>
+    <string name="error_nif_in_use">This NIF is already in use.</string>
+    <string name="error_update_profile">Error updating profile.</string>
+    <string name="profile_updated_success">Profile updated successfully.</string>
+    <string name="error_user_id_extraction">Error recognizing the user. Log in again.</string>
+    <string-array name="burn_types">
+        <item>All</item>
+        <item>Regular Clean</item>
+        <item>Particular</item>
+    </string-array>
+    <string-array name="burn_types_new_burn">
+        <item>Regular Clean</item>
+        <item>Particular</item>
+    </string-array>
+    <string name="regular_clean">Regular Clean</string>
+    <string name="particular">Particular</string>
+    <string name="error_creating_burn">Error creating burn</string>
+    <string name="state_pending">Pending</string>
+    <string name="state_approved">Approved</string>
+    <string name="state_denied">Denied</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_onb" translatable="false">OnboardingActivity</string>
+    <string name="screen1" translatable="false">Click on the button to create a new burn request</string>
+    <string name="screen2" translatable="false">Fill in the information and click confirm</string>
+    <string name="screen3" translatable="false">Click on Burn History to see your current\nand past burn requests</string>
+    <string name="screen4" translatable="false">Click on the Request you just created</string>
+    <string name="screen5" translatable="false">Your Burn Request details</string>
+    <string-array name="user_types">
+        <item>REGULAR</item>
+        <item>CM</item>
+    </string-array>
+    <string name="delete_profile_confirmation">Are you sure you want to delete your profile?</string>
+    <string name="forgot_password">Forgotten password?</string>
+    <string name="info_text">The use of fire is associated with agricultural and forestry practices, however fires constitute risky activities, with serious environmental, ecological and socioeconomic damage. Around 98% of fires in mainland Portugal are caused by negligent use of fire.</string>
+    <string name="register_pile_burn">Register new burn</string>
+    <string name="buttonConfirm">Confirm</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="fullName">Full Name</string>
+    <string name="nif">NIF</string>
+    <string name="manageProfile">Manage Profile</string>
+    <string name="home">Home</string>
+    <string name="myBurnHistory">My Burn History</string>
+    <string name="burnHistory">History</string>
+    <string name="countyHistory">County History</string>
+    <string name="manageUsers">Manage Users</string>
+    <string name="pendingBurnRequests">Pending Burn Requests</string>
+    <string name="contactUs">Contact Us</string>
+    <string name="logout">Log Out</string>
+    <string name="memberSince">Member since</string>
+    <string name="numberOfBurnRequests">Number of burn requests</string>
+    <string name="changePhoto">Change Photo</string>
+    <string name="changePassword">Change Password</string>
+    <string name="deleteProfile">Delete Profile</string>
+    <string name="invalidNifMessage">Invalid Tax Identification Number</string>
+    <string name="delete_profile_message">Are you sure you want to delete your profile?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="profile_deleted_message">Profile has been deleted.</string>
+    <string name="error_message">Error: %1$s</string>
+    <string name="permission_denied_message">Permissions have not been secured.</string>
+    <string name="profile_photo_update_success">Profile photo updated successfully.</string>
+    <string name="profile_photo_update_error">Error updating profile photo: %1$s</string>
+    <string name="file_processing_error">Error processing file: %1$s</string>
+    <string name="invalid_image_file_error">Error: Only image files are allowed!</string>
+    <string name="newPassword">New Password</string>
+    <string name="recoverPassword">Recover Password</string>
+    <string name="verificationCode">Verification code</string>
+    <string name="code">Code</string>
+    <string name="confirmNewPassword">Confirm New Password</string>
+    <string name="currentPassword">Current Password</string>
+    <string name="passwords_do_not_match">New passwords do not match</string>
+    <string name="password_change_success">Password changed successfully</string>
+    <string name="password_change_failure">Failed to change password</string>
+    <string name="empty_password">Password fields cannot be empty</string>
+    <string name="verification_code_sent">Verification code sent to your e-mail</string>
+    <string name="failed_to_send_verification_code">Failed to send verification code</string>
+    <string name="please_enter_email">Please enter your e-mail</string>
+    <string name="invalid_verification_code">Invalid verification code</string>
+    <string name="please_enter_verification_code">Please enter the verification code</string>
+    <string name="email_not_found">E-mail not found</string>
+    <string name="empty_full_name">Full name cannot be empty</string>
+    <string name="empty_email">E-mail cannot be empty</string>
+    <string name="invalid_nif_length">The NIF must have exactly 9 digits</string>
+    <string name="invalid_email_format">Invalid e-mail format</string>
+    <string name="invalid_nif_message">Invalid NIF. Must be exactly 9 digits</string>
+    <string name="manageUser">Manage User</string>
+    <string name="disable_profile">Disable Profile</string>
+    <string name="enable_profile">Enable Profile</string>
+    <string name="profile_enabled_success">Profile enabled successfully.</string>
+    <string name="profile_disabled_success">Profile disabled successfully.</string>
+    <string name="invalid_old_password">Invalid old password</string>
+    <string name="user_not_found">User not found</string>
+    <string name="user_id_extraction_failed">User ID extraction failed</string>
+    <string name="invalid_email">Invalid e-mail format</string>
+    <string name="password_too_short">Password must be at least 6 characters</string>
+    <string name="sign_up_failed">Sign-up failed</string>
+    <string name="registerNewUser">Register new user</string>
+    <string name="search">Search</string>
+    <string name="burnInfo">Info</string>
+    <string name="from">From: %1$s</string>
+    <string name="status">Status: %1$s</string>
+    <string name="type">Type: %1$s</string>
+    <string name="reason">Reason: %1$s</string>
+    <string name="date">Date: %1$s</string>
+    <string name="location">Location: %1$s, %2$s, %3$s</string>
+    <string name="otherData">Other data: %1$s</string>
+    <string name="typeBurn">Type: </string>
+    <string name="reasonBurn">Reason: </string>
+    <string name="dateBurn">Date: </string>
+    <string name="locationBurn">Location: </string>
+    <string name="otherDataBurn">Other date: </string>
+    <string name="open_map">Open map</string>
+    <string name="unknown">Unknown</string>
+    <string name="burnRequest">Request</string>
+    <string name="reject">Reject</string>
+    <string name="confirm_approve_burn">Are you sure you want to approve this burn?</string>
+    <string name="confirm_deny_burn">Are you sure you want to deny this burn?</string>
+    <string name="burn_state_update_success">Burn state updated successfully</string>
+    <string name="burn_state_update_error">Error updating burn state</string>
+    <string name="confirmLocation">Confirm Location</string>
+    <string name="burn_location">Location</string>
+    <string name="select_municipality">Select Municipality</string>
+    <string name="municipality">Municipality</string>
+    <string name="typeUser">Type User</string>
+    <string name="empty_municipality">Municipality cannot be empty for CM user</string>
+    <string name="user_created_successfully">User created successfully</string>
+    <string name="date_required">Date is required</string>
+    <string name="type_required">Type is required</string>
+    <string name="reason_required">Reason is required</string>
+    <string name="location_required">Location is required</string>
+    <string name="burn_created_success">Burn created successfully!</string>
+    <string name="burn_creation_error">Error creating burn: %1$s</string>
+    <string name="distrito">District</string>
+    <string name="concelho">County</string>
+    <string name="freguesia">Parish</string>
+    <string name="enterReasonHere">Enter reason here</string>
+    <string name="enterAdditionalInformationHere">Enter additional information here</string>
+    <string name="ddmmyy">DD/MM/YYYY</string>
+    <string name="app_help_number">Customer support line:</string>
+    <string name="subject">Subject</string>
+    <string name="subject_hint">Write here subject…</string>
+    <string name="send_us_message">Send us a message</string>
+    <string name="message_hint">Write here…</string>
+    <string name="send_button">Send</string>
+    <string name="message_sent_success">Message sent successfully</string>
+    <string name="message_sent_failure">Failed to send message: %1$s</string>
+    <string name="enter_subject_message">Please enter a subject and message</string>
+    <string name="exit_app">Exit application</string>
+    <string name="next_button">Next</string>
+    <string name="finish_button">Finish</string>
+    <string name="skip">Skip</string>
+    <string name="back">Back</string>
+
+</resources>

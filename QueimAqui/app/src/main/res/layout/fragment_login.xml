@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".fragments.fragment_login"
+    android:background="@color/BackGround">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_margin="16dp"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24"
+            android:contentDescription="Back" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/logo"
+                android:layout_width="272dp"
+                android:layout_height="335dp"
+                android:layout_below="@id/backButton"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="16dp"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/login" />
+
+            <TextView
+                android:id="@+id/login_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dp"
+                android:text="QueimAqui"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/register_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login_btn"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:layout_marginBottom="20dp" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="E-mail"
+                android:layout_marginBottom="10dp"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@color/white"/>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:endIconMode="password_toggle"
+                app:endIconTint="@color/black"
+                android:textColorHint="@color/black"
+                android:background="@color/white">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/password"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:padding="10dp"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/login_confirm_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buttonConfirm"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/LoginBTN"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

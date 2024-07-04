@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    android:background="@color/light_orange"
+    app:startDestination="@id/fragment_first_screen">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.example.chamasegura.fragments.fragment_login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_home"
+            app:destination="@id/fragment_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register"
+        android:name="com.example.chamasegura.fragments.fragment_register"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragment_register_to_fragment_first_screen2"
+            app:destination="@id/fragment_first_screen" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_manage_profile"
+        android:name="com.example.chamasegura.fragments.fragment_manage_profile"
+        android:label="fragment_manage_profile"
+        tools:layout="@layout/fragment_manage_profile" >
+        <action
+            android:id="@+id/action_fragment_manage_profile_to_fragment_login"
+            app:destination="@id/fragment_login" />
+        <action
+            android:id="@+id/action_fragment_manage_profile_to_fragment_change_password"
+            app:destination="@id/fragment_change_password" />
+        <action
+            android:id="@+id/action_fragment_manage_profile_to_fragment_home"
+            app:destination="@id/fragment_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_new_burn"
+        android:name="com.example.chamasegura.fragments.fragment_new_burn"
+        android:label="fragment_new_burn"
+        tools:layout="@layout/fragment_new_burn" />
+    <fragment
+        android:id="@+id/fragment_first_screen"
+        android:name="com.example.chamasegura.fragments.fragment_first_screen"
+        android:label="fragment_first_screen"
+        tools:layout="@layout/fragment_first_screen" >
+        <action
+            android:id="@+id/action_fragment_first_screen_to_fragment_login"
+            app:destination="@id/fragment_login" />
+        <action
+            android:id="@+id/action_fragment_first_screen_to_fragment_register"
+            app:destination="@id/fragment_register" />
+        <action
+            android:id="@+id/action_fragment_first_screen_to_fragment_forgot_password"
+            app:destination="@id/fragment_forgot_password" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="com.example.chamasegura.fragments.fragment_home"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragment_home_to_fragment_new_burn"
+            app:destination="@id/fragment_new_burn" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_change_password"
+        android:name="com.example.chamasegura.fragments.fragment_change_password"
+        android:label="fragment_change_password"
+        tools:layout="@layout/fragment_change_password" />
+    <fragment
+        android:id="@+id/fragment_forgot_password"
+        android:name="com.example.chamasegura.fragments.fragment_forgot_password"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_fragment_forgot_password_to_fragment_verification_code"
+            app:destination="@id/fragment_verification_code" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_verification_code"
+        android:name="com.example.chamasegura.fragments.fragment_verification_code"
+        android:label="fragment_verification_code"
+        tools:layout="@layout/fragment_verification_code" >
+        <action
+            android:id="@+id/action_fragment_verification_code_to_fragment_change_password_user"
+            app:destination="@id/fragment_change_password_user">
+            <argument
+                android:name="token"
+                app:argType="string" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_my_burn_history"
+        android:name="com.example.chamasegura.fragments.fragment_my_burn_history"
+        android:label="fragment_my_burn_history"
+        tools:layout="@layout/fragment_my_burn_history" >
+        <action
+            android:id="@+id/action_fragment_burn_history_to_fragment_burn_info"
+            app:destination="@id/fragment_burn_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_manage_users"
+        android:name="com.example.chamasegura.fragments.fragment_manage_users"
+        android:label="fragment_manage_users"
+        tools:layout="@layout/fragment_manage_users" >
+        <action
+            android:id="@+id/action_fragment_manage_users_to_fragment_register_manage_users"
+            app:destination="@id/fragment_register_manage_users" />
+        <action
+            android:id="@+id/action_fragment_manage_users_to_fragment_manage_user"
+            app:destination="@id/fragment_manage_user">
+            <argument
+                android:name="userId"
+                app:argType="integer" />
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_pending_burn_requests"
+        android:name="com.example.chamasegura.fragments.fragment_pending_burn_requests"
+        android:label="fragment_pending_burn_requests"
+        tools:layout="@layout/fragment_pending_burn_requests">
+        <action
+            android:id="@+id/action_fragmentPendingBurnRequests_to_fragmentBurnInfoPending"
+            app:destination="@id/fragment_burn_info_pending" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_burn_info"
+        android:name="com.example.chamasegura.fragments.fragment_burn_info"
+        android:label="fragment_burn_info"
+        tools:layout="@layout/fragment_burn_info">
+        <argument
+            android:name="burn"
+            app:argType="com.example.chamasegura.data.entities.Burn" />
+        <action
+            android:id="@+id/action_fragment_burn_info_to_fragment_map_burn_info"
+            app:destination="@id/fragment_map_burn_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_manage_user"
+        android:name="com.example.chamasegura.fragments.fragment_manage_user"
+        android:label="fragment_manage_user"
+        tools:layout="@layout/fragment_manage_user">
+        <argument
+            android:name="userId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_fragment_manage_user_to_fragment_change_password_icnf"
+            app:destination="@id/fragment_change_password_icnf" />
+        <action
+            android:id="@+id/action_fragment_manage_user_to_fragment_manage_users"
+            app:destination="@id/fragment_manage_users" />
+        <action
+            android:id="@+id/action_fragment_manage_user_to_fragment_login"
+            app:destination="@id/fragment_login" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_contact_us"
+        android:name="com.example.chamasegura.fragments.fragment_contact_us"
+        android:label="fragment_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/fragment_county_history"
+        android:name="com.example.chamasegura.fragments.fragment_county_history"
+        android:label="fragment_county_history"
+        tools:layout="@layout/fragment_county_history" >
+        <action
+            android:id="@+id/action_fragment_county_history_to_fragment_burn_info"
+            app:destination="@id/fragment_burn_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_register_manage_users"
+        android:name="com.example.chamasegura.fragments.fragment_register_manage_users"
+        android:label="fragment_register_manage_users"
+        tools:layout="@layout/fragment_register_manage_users" />
+    <fragment
+        android:id="@+id/fragment_burn_history"
+        android:name="com.example.chamasegura.fragments.fragment_burn_history"
+        android:label="fragment_burn_history"
+        tools:layout="@layout/fragment_burn_history" >
+        <action
+            android:id="@+id/action_fragment_burn_history_to_fragment_burn_info"
+            app:destination="@id/fragment_burn_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_burn_info_pending"
+        android:name="com.example.chamasegura.fragments.fragment_burn_info_pending"
+        android:label="fragment_burn_info_pending"
+        tools:layout="@layout/fragment_burn_info_pending">
+        <argument
+            android:name="burn"
+            app:argType="com.example.chamasegura.data.entities.Burn" />
+        <action
+            android:id="@+id/action_fragment_burn_info_pending_to_fragment_map_burn_info"
+            app:destination="@id/fragment_map_burn_info" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_map_burn_info"
+        android:name="com.example.chamasegura.fragments.fragment_map_burn_info"
+        android:label="fragment_map_burn_info">
+        <argument
+            android:name="latitude"
+            app:argType="float"/>
+        <argument
+            android:name="longitude"
+            app:argType="float"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_change_password_icnf"
+        android:name="com.example.chamasegura.fragments.fragment_change_password_icnf"
+        android:label="fragment_change_password_icnf"
+        tools:layout="@layout/fragment_change_password_icnf">
+        <argument
+            android:name="userId"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_change_password_user"
+        android:name="com.example.chamasegura.fragments.fragment_change_password_user"
+        android:label="fragment_change_password_user"
+        tools:layout="@layout/fragment_change_password_user" >
+        <argument
+            android:name="token"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_fragment_change_password_user_to_fragment_first_screen"
+            app:destination="@id/fragment_first_screen" />
+    </fragment>
+</navigation>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QueimAqui</string>
+    <string name="login_btn">Iniciar sessão</string>
+    <string name="register_btn">Registar</string>
+    <string name="language">Idioma</string>
+    <string-array name="languages">
+        <item>English</item>
+        <item>Português</item>
+    </string-array>
+    <string name="open_nav">Abrir Navigation Drawer</string>
+    <string name="close_nav">Fechar Navigation Drawer</string>
+    <string name="error_email_in_use">Este e-mail já está em uso.</string>
+    <string name="error_nif_in_use">Este NIF já está em uso.</string>
+    <string name="error_update_profile">Erro ao atualizar perfil.</string>
+    <string name="profile_updated_success">Perfil atualizado com sucesso.</string>
+    <string name="error_user_id_extraction">Erro ao reconhecer o utilizador. Faça iniciar sessão novamente.</string>
+    <string-array name="burn_types">
+        <item>Todos</item>
+        <item>Limpeza Regular</item>
+        <item>Particular</item>
+    </string-array>
+    <string-array name="burn_types_new_burn">
+        <item>Limpeza Regular</item>
+        <item>Particular</item>
+    </string-array>
+    <string name="regular_clean">Limpeza Regular</string>
+    <string name="particular">Particular</string>
+    <string name="error_creating_burn">Error ao criar a queima</string>
+    <string name="state_pending">Pendente</string>
+    <string name="state_approved">Aprovado</string>
+    <string name="state_denied">Rejeitado</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string-array name="user_types">
+        <item>REGULAR</item>
+        <item>CM</item>
+    </string-array>
+    <string name="delete_profile_confirmation">Tem certeza de que deseja eliminar o seu perfil?</string>
+    <string name="forgot_password">Não sabes a tua palavra-passe?</string>
+    <string name="info_text">O uso do fogo encontra-se associado à prática agrícola e florestal, no entanto as queimadas constituem atividades de risco, com graves danos ambientais, ecológicos e socioeconômicos. Cerca de 98% dos incêndios em Portugal Continental são causados por uso negligente do fogo.</string>
+    <string name="register_pile_burn">Registar nova queimada</string>
+    <string name="buttonConfirm">Confirmar</string>
+    <string name="password">Palavra-Passe</string>
+    <string name="confirmPassword">Confirmar Palavra-Passe</string>
+    <string name="fullName">Nome Completo</string>
+    <string name="nif">NIF</string>
+    <string name="manageProfile">Gerir Perfil</string>
+    <string name="home">Home</string>
+    <string name="myBurnHistory">Meu histórico de Queimadas</string>
+    <string name="burnHistory">Histórico</string>
+    <string name="countyHistory">Histórico do Concelho</string>
+    <string name="manageUsers">Gerir Perfis</string>
+    <string name="pendingBurnRequests">Pedidos de Queimada Pendentes</string>
+    <string name="contactUs">Contactos</string>
+    <string name="logout">Sair</string>
+    <string name="memberSince">Membro desde</string>
+    <string name="numberOfBurnRequests">Número de pedidos de queimadas</string>
+    <string name="changePhoto">Mudar foto</string>
+    <string name="changePassword">Mudar Palavra-Passe</string>
+    <string name="deleteProfile">Eliminar Perfil</string>
+    <string name="invalidNifMessage">Número de identificação fiscal inválido</string>
+    <string name="delete_profile_message">Tem certeza de que deseja eliminar o seu perfil?</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+    <string name="profile_deleted_message">O seu perfil foi eliminado.</string>
+    <string name="error_message">Erro: %1$s</string>
+    <string name="permission_denied_message">Permissões necessárias não foram atribuídas.</string>
+    <string name="profile_photo_update_success">Foto de perfil atualizada com sucesso.</string>
+    <string name="profile_photo_update_error">Erro ao atualizar foto de perfil: %1$s</string>
+    <string name="file_processing_error">Erro ao processar o ficheiro: %1$s</string>
+    <string name="invalid_image_file_error">Erro: Apenas são permitidos ficheiros de imagem!</string>
+    <string name="newPassword">Nova Palavra-Passe</string>
+    <string name="recoverPassword">Recuperar Palavra-Passe</string>
+    <string name="verificationCode">Código de verificação</string>
+    <string name="code">Código</string>
+    <string name="confirmNewPassword">Confirmar Nova Palavra-Passe</string>
+    <string name="currentPassword">Atual Palavra-Passe</string>
+    <string name="passwords_do_not_match">A palavra-passe não combina</string>
+    <string name="password_change_success">A palavra-passe foi alterada com sucesso</string>
+    <string name="password_change_failure">Falha ao alterar a palavra-passe</string>
+    <string name="empty_password">Os campos de palavra-passe não podem ficar vazios</string>
+    <string name="verification_code_sent">Código de verificação enviado para o seu e-mail</string>
+    <string name="failed_to_send_verification_code">Falha ao enviar o código de verificação</string>
+    <string name="please_enter_email">Por favor introduza o seu e-mail</string>
+    <string name="invalid_verification_code">Código de verificação inválido</string>
+    <string name="please_enter_verification_code">Por favor, insira o código de verificação</string>
+    <string name="email_not_found">E-mail não encontrado</string>
+    <string name="empty_full_name">O nome completo não pode ficar vazio</string>
+    <string name="empty_email">O e-mail não pode ficar vazio</string>
+    <string name="invalid_nif_length">NIF deve ter exatamente 9 dígitos</string>
+    <string name="invalid_email_format">Formato de e-mail inválido</string>
+    <string name="invalid_nif_message">NIF inválido. Deve ter exatamente 9 dígitos</string>
+    <string name="manageUser">Gerir Perfil</string>
+    <string name="disable_profile">Desativar perfil</string>
+    <string name="enable_profile">Ativar perfil</string>
+    <string name="profile_enabled_success">Perfil ativado com sucesso</string>
+    <string name="profile_disabled_success">Perfil desativado com sucesso</string>
+    <string name="invalid_old_password">Palavra-passe atual inválida</string>
+    <string name="user_not_found">Perfil não encontrado</string>
+    <string name="user_id_extraction_failed">Falha na recolha do ID do utilizador</string>
+    <string name="invalid_email">Formato de E-mail inválido</string>
+    <string name="password_too_short">A palavra-passe deve ter pelo menos 6 caracteres</string>
+    <string name="sign_up_failed">Falha no iniciar sessão</string>
+    <string name="registerNewUser">Registar novo utilizador</string>
+    <string name="search">Procurar</string>
+    <string name="burnInfo">Informações</string>
+    <string name="from">De: %1$s</string>
+    <string name="status">Estado: %1$s</string>
+    <string name="type">Tipo: %1$s</string>
+    <string name="reason">Razão: %1$s</string>
+    <string name="date">Data: %1$s</string>
+    <string name="location">Localização: %1$s, %2$s, %3$s</string>
+    <string name="otherData">Outros dados: %1$s</string>
+    <string name="typeBurn">Tipo: </string>
+    <string name="reasonBurn">Razão: </string>
+    <string name="dateBurn">Data: </string>
+    <string name="locationBurn">Localização: </string>
+    <string name="otherDataBurn">Outros dados: </string>
+    <string name="open_map">Abrir o mapa</string>
+    <string name="unknown">Desconhecido</string>
+    <string name="burnRequest">Pedidos</string>
+    <string name="reject">Rejeitar</string>
+    <string name="confirm_approve_burn">Tem certeza de que deseja aprovar esta queimada?</string>
+    <string name="confirm_deny_burn">Tem certeza de que deseja rejeitar esta queimada?</string>
+    <string name="burn_state_update_success">Estado da queimada atualizado com sucesso</string>
+    <string name="burn_state_update_error">Erro ao atualizar o estado da queimada</string>
+    <string name="confirmLocation">Confirmar Localização</string>
+    <string name="burn_location">Localização</string>
+    <string name="select_municipality">Selecionar Concelho</string>
+    <string name="municipality">Concelho</string>
+    <string name="typeUser">Tipo de utilizador</string>
+    <string name="empty_municipality">O campo concelho, não pode fizar vazio para utilizador CM</string>
+    <string name="user_created_successfully">Utilizador criado com sucesso</string>
+    <string name="date_required">Data é obrigatória</string>
+    <string name="type_required">Tipo é obrigatório</string>
+    <string name="reason_required">Razão é obrigatória</string>
+    <string name="location_required">Localização é obrigatória</string>
+    <string name="burn_created_success">Queima criada com sucesso!</string>
+    <string name="burn_creation_error">Erro ao criar queima: %1$s</string>
+    <string name="distrito">Distrito</string>
+    <string name="concelho">Concelho</string>
+    <string name="freguesia">Freguesia</string>
+    <string name="enterReasonHere">Insira o motivo aqui</string>
+    <string name="enterAdditionalInformationHere">Insira outros dados relevantes aqui</string>
+    <string name="ddmmyy">DD/MM/AAAA</string>
+    <string name="app_help_number">Linha de apoio ao cliente:</string>
+    <string name="subject">Assunto</string>
+    <string name="subject_hint">Escreve aqui o assunto…</string>
+    <string name="send_us_message">Envie-nos uma mensagem</string>
+    <string name="message_hint">Escreve aqui…</string>
+    <string name="send_button">Enviar</string>
+    <string name="message_sent_success">Mensagem enviada com sucesso</string>
+    <string name="message_sent_failure">Falha no envio da mensagem: %1$s</string>
+    <string name="enter_subject_message">Por favor insira um assunto e uma mensagem</string>
+    <string name="exit_app">Sair da aplicação</string>
+    <string name="next_button">Próximo</string>
+    <string name="finish_button">Terminar</string>
+    <string name="skip">Saltar</string>
+    <string name="back">Voltar</string>
+
+
+</resources>
