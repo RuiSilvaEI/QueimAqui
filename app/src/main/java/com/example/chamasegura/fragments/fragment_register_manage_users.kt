@@ -38,42 +38,17 @@ class fragment_register_manage_users : Fragment() {
         val fullNameEditText: EditText = view.findViewById(R.id.full_name)
         val emailEditText: EditText = view.findViewById(R.id.email)
         val passwordEditText: EditText = view.findViewById(R.id.password)
-        val confirmPasswordEditText: EditText = view.findViewById(R.id.confirm_password)
         val nifEditText: EditText = view.findViewById(R.id.nif)
         val userTypeSpinner: Spinner = view.findViewById(R.id.user_type_spinner)
         val municipalitySpinner: SearchableSpinner = view.findViewById(R.id.municipality_spinner)
         val confirmButton: Button = view.findViewById(R.id.confirm_button)
         val backButton = view.findViewById<ImageButton>(R.id.backButton)
-        val togglePasswordVisibilityButton = view.findViewById<ImageButton>(R.id.toggle_password_visibility)
-        val toggleConfirmPasswordVisibilityButton = view.findViewById<ImageButton>(R.id.toggle_confirm_password_visibility)
 
         backButton.setOnClickListener {
             findNavController().navigateUp()
         }
 
-        togglePasswordVisibilityButton.setOnClickListener {
-            passwordVisible = !passwordVisible
-            if (passwordVisible) {
-                passwordEditText.inputType = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
-                togglePasswordVisibilityButton.setImageResource(R.drawable.baseline_visibility_24)
-            } else {
-                passwordEditText.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-                togglePasswordVisibilityButton.setImageResource(R.drawable.baseline_visibility_off_24)
-            }
-            passwordEditText.setSelection(passwordEditText.text.length)
-        }
 
-        toggleConfirmPasswordVisibilityButton.setOnClickListener {
-            confirmPasswordVisible = !confirmPasswordVisible
-            if (confirmPasswordVisible) {
-                confirmPasswordEditText.inputType = InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD
-                toggleConfirmPasswordVisibilityButton.setImageResource(R.drawable.baseline_visibility_24)
-            } else {
-                confirmPasswordEditText.inputType = InputType.TYPE_CLASS_TEXT or InputType.TYPE_TEXT_VARIATION_PASSWORD
-                toggleConfirmPasswordVisibilityButton.setImageResource(R.drawable.baseline_visibility_off_24)
-            }
-            confirmPasswordEditText.setSelection(confirmPasswordEditText.text.length)
-        }
 
         // Configuração do Spinner de Municípios
         municipalityViewModel.getMunicipalities()
@@ -146,7 +121,6 @@ class fragment_register_manage_users : Fragment() {
             val fullName = fullNameEditText.text.toString().trim()
             val email = emailEditText.text.toString().trim()
             val password = passwordEditText.text.toString().trim()
-            val confirmPassword = confirmPasswordEditText.text.toString().trim()
             val nifString = nifEditText.text.toString().trim()
             val userType = when (userTypeSpinner.selectedItem.toString()) {
                 "Regular" -> UserType.REGULAR
@@ -170,9 +144,6 @@ class fragment_register_manage_users : Fragment() {
                 }
                 password.length < 6 -> {
                     Toast.makeText(requireContext(), getString(R.string.password_too_short), Toast.LENGTH_LONG).show()
-                }
-                password != confirmPassword -> {
-                    Toast.makeText(requireContext(), getString(R.string.passwords_do_not_match), Toast.LENGTH_LONG).show()
                 }
                 nifString.length != 9 || nifString.any { !it.isDigit() } -> {
                     Toast.makeText(requireContext(), getString(R.string.invalid_nif_message), Toast.LENGTH_LONG).show()
