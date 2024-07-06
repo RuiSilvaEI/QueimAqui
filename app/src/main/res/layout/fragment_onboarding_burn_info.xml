@@ -19,9 +19,10 @@
         <ImageView
             android:id="@+id/sliderImage"
             android:layout_width="360dp"
-            android:layout_height="500dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/image_background"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/onboarding5" />
 
 
         <!--    IMAGEM DO TUTORIAL INICIAL

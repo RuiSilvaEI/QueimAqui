@@ -17,6 +17,7 @@
         app:cardElevation="8dp">
 
         <ImageView
+            android:src="@drawable/onboarding1"
             android:id="@+id/sliderImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"

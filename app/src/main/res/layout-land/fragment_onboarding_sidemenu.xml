@@ -18,11 +18,12 @@
 
         <ImageView
             android:id="@+id/sliderImage"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="370dp"
+            android:layout_height="314dp"
             android:adjustViewBounds="true"
             android:background="@drawable/image_background"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            android:src="@drawable/onboarding3" />
     </androidx.cardview.widget.CardView>
 
     <TextView

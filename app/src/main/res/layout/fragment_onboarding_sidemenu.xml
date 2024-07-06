@@ -17,11 +17,12 @@
         android:layout_gravity="center">
 
         <ImageView
+            android:src="@drawable/onboarding3"
             android:id="@+id/sliderImage"
-            android:layout_width="330dp"
-            android:layout_height="500dp"
+            android:layout_width="361dp"
+            android:layout_height="match_parent"
             android:background="@drawable/image_background"
-            android:scaleType="centerCrop"/>
+            android:scaleType="centerCrop" />
 
 
         <!--    IMAGEM DO TUTORIAL INICIAL

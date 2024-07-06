@@ -18,6 +18,7 @@
         android:layout_gravity="center">
 
         <ImageView
+            android:src="@drawable/onboarding4"
             android:id="@+id/sliderImage"
             android:layout_width="281dp"
             android:layout_height="222dp"
