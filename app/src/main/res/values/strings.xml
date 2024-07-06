@@ -162,5 +162,7 @@
     <string name="finish_button">Finish</string>
     <string name="skip">Skip</string>
     <string name="back">Back</string>
+    <string name="invalid_municipality">Sem Municipios</string>
+    <string name="empty_user_type">Please select user type</string>
 
 </resources>

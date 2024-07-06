@@ -157,6 +157,8 @@
     <string name="finish_button">Terminar</string>
     <string name="skip">Saltar</string>
     <string name="back">Voltar</string>
+    <string name="invalid_municipality">Sem Municipios</string>
+    <string name="empty_user_type">Selecione um Utilizador</string>
 
 
 </resources>
