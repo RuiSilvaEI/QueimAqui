@@ -164,5 +164,6 @@
     <string name="back">Back</string>
     <string name="invalid_municipality">Sem Municipios</string>
     <string name="empty_user_type">Please select user type</string>
+    <string name="userType">User Type</string>
 
 </resources>

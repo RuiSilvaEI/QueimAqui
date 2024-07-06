@@ -5,168 +5,6 @@
       <config />
     </shared>
     <layouts>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_contact_us.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_county_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_first_screen.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_forgot_password.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_home.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_login.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_manage_profile.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_manage_user.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_manage_users.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_map_burn_info.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_my_burn_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_new_burn.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_onboarding_burn_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_onboarding_burn_info.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_onboarding_home.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_onboarding_new_burn.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_onboarding_sidemenu.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_pending_burn_requests.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_register.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_register_manage_users.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/fragment_verification_code.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/nav_header.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/recycler_view_burn_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/recycler_view_county_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/recycler_view_manage_users.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/recycler_view_my_burn_history.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
-      <layout url="file://$PROJECT_DIR$/app/src/main/res/layout-land/recycler_view_pending_burn_requests.xml">
-        <config>
-          <state>Landscape</state>
-          <theme>@style/Theme.Chamasegura</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
         <config>
           <theme>@style/Theme.Chamasegura</theme>
@@ -319,13 +157,11 @@
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_verification_code.xml">
         <config>
-          <state>Landscape</state>
           <theme>@style/Theme.Chamasegura</theme>
         </config>
       </layout>
       <layout url="file://$PROJECT_DIR$/app/src/main/res/layout/nav_header.xml">
         <config>
-          <state>Landscape</state>
           <theme>@style/Theme.Chamasegura</theme>
         </config>
       </layout>
@@ -385,7 +221,16 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86e48739-f22b-4f97-84c6-32ea7519a66c" name="Changes" comment="Corrigi erros" />
+    <list default="true" id="86e48739-f22b-4f97-84c6-32ea7519a66c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChamaSegura.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/chamasegura/fragments/fragment_register_manage_users.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/chamasegura/fragments/fragment_register_manage_users.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register_manage_users.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_register_manage_users.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-pt/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -394,7 +239,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\migue\.android\avd\Pixel_3a_API_34.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=ROHID6F6SGAQC6FU)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -451,18 +296,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;RuiSilvaEI&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RuiSilvaEI"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/RuiSilvaEI/QueimAqui.git&quot;,
-    &quot;accountId&quot;: &quot;3c465e56-f381-4809-b9f6-837abb91f6f9&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RuiSilvaEI/QueimAqui.git",
+    "accountId": "f3ff281e-cfea-4b13-86fc-3fa54d21a185"
   }
-}</component>
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -470,31 +315,30 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ifP0QCQPMVnpBqtRDhIMVlYd5h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/migue/Desktop/ChamaSeguraAPP-master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Android App.app.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/AndroidStudio/QueimAqui-Git/QueimAqui/app/src/main/java/com/example/chamasegura/data"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;kotlin-gradle-user-dirs&quot;: [
-      &quot;C:\\Users\\migue\\.gradle&quot;
+  "keyToStringList": {
+    "kotlin-gradle-user-dirs": [
+      "C:\\Users\\ruifo\\.gradle"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\AndroidStudio\QueimAqui-Git\QueimAqui\app\src\main\java\com\example\chamasegura\data" />
@@ -580,39 +424,6 @@
       <option name="presentableId" value="Default" />
       <updated>1719878436553</updated>
     </task>
-    <task id="LOCAL-00001" summary="Adicionei layouts de landscape a alguns ecrâs">
-      <option name="closed" value="true" />
-      <created>1720263354147</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1720263354147</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Corrigi erros">
-      <option name="closed" value="true" />
-      <created>1720274783780</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1720274783780</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adicionei layouts de landscape a alguns ecrâs" />
-    <MESSAGE value="Corrigi erros" />
-    <option name="LAST_COMMIT_MESSAGE" value="Corrigi erros" />
   </component>
 </project>
