@@ -59,8 +59,8 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:entries="@array/burn_types"
-                android:backgroundTint="@android:color/black" />
+                android:backgroundTint="@android:color/black"
+                android:entries="@array/burn_types" />
 
             <TextView
                 android:id="@+id/sort_button"

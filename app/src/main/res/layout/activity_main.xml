@@ -38,16 +38,14 @@
             app:defaultNavHost="true"
             app:navGraph="@navigation/navigation" />
 
-        <com.google.android.material.navigation.NavigationView
-            android:id="@+id/nav_view"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="start"
-            app:headerLayout="@layout/nav_header"
-            app:menu="@menu/side_menu"
-            tools:layout_editor_absoluteX="-3dp"
-            tools:layout_editor_absoluteY="48dp" />
-
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/side_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
