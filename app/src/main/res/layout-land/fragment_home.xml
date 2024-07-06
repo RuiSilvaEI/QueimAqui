@@ -55,7 +55,7 @@
             android:textAlignment="center"
             android:layout_marginTop="16dp"
             android:padding="8dp"
-            android:background="@drawable/rounded_background"
+            android:background="@drawable/rectangular_background"
             android:textColor="@android:color/white"/>
 
     </LinearLayout>

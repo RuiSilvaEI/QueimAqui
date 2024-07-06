@@ -4,15 +4,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/BackGround">
+    android:background="@color/BackGround"
+    android:padding="16dp"
+    android:fillViewport="true"
+    tools:context=".fragments.fragment_burn_history">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:padding="16dp">
+        android:orientation="vertical">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp">
@@ -24,34 +26,28 @@
                 android:background="@android:color/transparent"
                 android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
                 app:navigationIcon="@drawable/baseline_menu_24"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintStart_toStartOf="parent"/>
+                android:layout_gravity="center"/>
 
             <TextView
                 android:id="@+id/title"
-                android:layout_width="330dp"
-                android:layout_height="match_parent"
-                android:text="@string/myBurnHistory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/burnHistory"
+                android:layout_marginTop="90dp"
+                android:textSize="30sp"
+                android:textStyle="bold"
                 android:textColor="@color/white"
-                android:layout_marginTop="30dp"
-                android:layout_marginBottom="30dp"
-                android:textSize="30dp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@id/toolbar"
-                app:layout_constraintTop_toTopOf="parent" />
-        </androidx.constraintlayout.widget.ConstraintLayout>
+                android:layout_centerInParent="true"/>
+        </RelativeLayout>
 
         <LinearLayout
-            android:background="@color/RegisterBTN"
-            android:layout_marginTop="-30dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
             android:orientation="horizontal"
-            android:gravity="end"
-            android:layout_marginBottom="8dp">
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp">
 
             <Spinner
                 android:id="@+id/spinnerType"
@@ -65,7 +61,6 @@
                 android:id="@+id/sort_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
                 android:textSize="18sp"
                 android:drawableEnd="@drawable/ic_calendar_arrow_down"
                 android:drawablePadding="8dp"
@@ -77,11 +72,10 @@
         </LinearLayout>
 
         <androidx.recyclerview.widget.RecyclerView
-            android:background="@color/white"
             android:id="@+id/recycler_view_burn_history"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"/>
+
     </LinearLayout>
 </ScrollView>
-
