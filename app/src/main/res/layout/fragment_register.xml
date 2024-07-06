@@ -32,16 +32,17 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
                 android:layout_marginTop="16dp"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
 
                 <ImageView
                     android:id="@+id/logo"
                     android:layout_width="250dp"
                     android:layout_height="250dp"
-                    android:layout_marginTop="16dp"
                     android:layout_below="@id/backButton"
+                    android:layout_marginTop="16dp"
                     android:contentDescription="@string/app_name"
                     android:src="@drawable/registerlogo" />
 
@@ -50,50 +51,47 @@
                     android:id="@+id/register_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/register_btn"
                     android:layout_marginTop="30dp"
-                    android:textSize="30sp"
-                    android:textStyle="bold"
+                    android:layout_marginBottom="24dp"
+                    android:text="@string/register_btn"
                     android:textColor="@color/white"
-                    android:layout_marginBottom="24dp" />
-
+                    android:textSize="30sp"
+                    android:textStyle="bold" />
 
 
                 <EditText
                     android:id="@+id/full_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/fullName"
                     android:layout_marginBottom="16dp"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/black"
                     android:background="@color/white"
-                    android:padding="10dp"/>
+                    android:hint="@string/fullName"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
 
                 <EditText
                     android:id="@+id/email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="E-mail"
                     android:layout_marginBottom="16dp"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/black"
                     android:background="@color/white"
-                    android:padding="10dp"/>
+                    android:hint="E-mail"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
 
                 <EditText
                     android:id="@+id/nif"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="NIF"
                     android:layout_marginBottom="16dp"
-                    android:inputType="number"
-                    android:textColor="@color/black"
-                    android:textColorHint="@color/black"
                     android:background="@color/white"
-                    android:padding="10dp"/>
-
-
+                    android:hint="NIF"
+                    android:inputType="number"
+                    android:padding="10dp"
+                    android:textColor="@color/black"
+                    android:textColorHint="@color/black" />
 
 
                 <RelativeLayout
@@ -106,23 +104,24 @@
                         android:id="@+id/password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:hint="@string/password"
                         android:inputType="textPassword"
-                        android:paddingEnd="48dp"
                         android:padding="10dp"
+                        android:paddingEnd="48dp"
                         android:textColor="@color/black"
-                        android:textColorHint="@color/black"
-                        android:background="@color/white"/>
+                        android:textColorHint="@color/black" />
 
                     <ImageButton
                         android:id="@+id/show_password_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:background="@null"
-                        android:src="@drawable/baseline_visibility_24"
-                        android:contentDescription="Show password" />
+                        android:contentDescription="Show password"
+                        android:src="@drawable/baseline_visibility_24" />
 
                 </RelativeLayout>
 
@@ -135,34 +134,35 @@
                         android:id="@+id/confirm_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:background="@color/white"
                         android:hint="@string/confirmPassword"
                         android:inputType="textPassword"
+                        android:padding="10dp"
                         android:paddingEnd="48dp"
                         android:textColor="@color/black"
-                        android:textColorHint="@color/black"
-                        android:background="@color/white"
-                        android:padding="10dp"/>
+                        android:textColorHint="@color/black" />
 
                     <ImageButton
                         android:id="@+id/show_confirm_password_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
                         android:layout_alignParentEnd="true"
                         android:layout_centerVertical="true"
                         android:background="@null"
-                        android:src="@drawable/baseline_visibility_24"
-                        android:contentDescription="Show confirm password" />
+                        android:contentDescription="Show confirm password"
+                        android:src="@drawable/baseline_visibility_24" />
                 </RelativeLayout>
 
                 <Button
                     android:id="@+id/confirm_button"
-                    android:text="@string/buttonConfirm"
-                    android:backgroundTint="@color/LoginBTN"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/LoginBTN"
+                    android:text="@string/buttonConfirm"
                     android:textColor="@color/white"
-                    android:textSize="20dp"
-                    android:layout_marginTop="10dp" />
+                    android:textSize="20dp" />
 
             </LinearLayout>
         </RelativeLayout>
